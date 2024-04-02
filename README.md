@@ -5,20 +5,19 @@ Need TO install on linux:
 Install C++ compiler/librarys on linux using a script Script provided by David Croft (Coventry University Tutor)
 
 wget https://git.io/vF0E1 -O - | sudo bash (Script)
-👮 sudo apt install ncurses-dev (Curses Library)
-👮 sudo apt install sqlite3-dev (SQLite Library)
+sudo apt install ncurses-dev (Curses Library)
+sudo apt install sqlite3-dev (SQLite Library)
 
-❗ REMEMBER TO BE ON THE CORRECT FOLDER FRIST 😜
-👍 Useful Commands:
-👻 Easy compile(load script):
+❗ REMEMBER TO BE ON THE CORRECT FOLDER FRIST 
+ Useful Commands:
+ Easy compile(load script):
 "make"
 
 this load the makefile on the folder
-😘 to compile ->
+to compile ->
 "g++ -std=c++14 main.cpp -lsqlite3 -lncurses -o game"
 
-after -o put the name you want to give to the executable, my case i choose 'game' -l means library to load sqlite3 (database) ncurses( is "canvas"(pointers) for console)
-😪 execute ->
+after -o put the name you want to give to the executable, my case i choose 'game' -l means library to load sqlite3 (database) ncurses( is "canvas"(pointers) for console) execute ->
 "./<name inputed after -o>"
 
 If same functions on the game dont work you need to give full permission to the files/folder
